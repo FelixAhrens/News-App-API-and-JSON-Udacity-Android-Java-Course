@@ -15,5 +15,6 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
         Toast.makeText(context, status, Toast.LENGTH_SHORT).show();
 
         //test git
+        //test git 2
     }
 }
