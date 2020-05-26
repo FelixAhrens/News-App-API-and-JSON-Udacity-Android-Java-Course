@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CryptoNews by the Guardian</string>
+
+    <string name="no_data">No data found.</string>
+    <string name="wifi_enabled">Wifi enabled</string>
+    <string name="mobile_data_enabled">Mobile data enabled</string>
+    <string name="no_internet_connection">No internet connection</string>
+</resources>

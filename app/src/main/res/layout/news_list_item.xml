@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/minHeight"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:src="@drawable/ic_bitcoin_blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/news_title"
+            style="@style/title"
+            tools:text="New Bitcoin run" />
+
+        <TextView
+            android:id="@+id/sub_text"
+            style="@style/sub_text"
+            tools:text="by Sub Text | Technology | 25-05-2020" />
+    </LinearLayout>
+
+</LinearLayout>

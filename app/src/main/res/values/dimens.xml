@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minHeight">80dp</dimen>
+
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="secondary_text_size">12sp</dimen>
+
+    <dimen name="margin_horizontal_full">16dp</dimen>
+    <dimen name="margin_horizontal_half">8dp</dimen>
+    <dimen name="margin_vertical">4dp</dimen>
+    <dimen name="padding_horizontal">16dp</dimen>
+
+    <dimen name="image_size">75dp</dimen>
+</resources>
